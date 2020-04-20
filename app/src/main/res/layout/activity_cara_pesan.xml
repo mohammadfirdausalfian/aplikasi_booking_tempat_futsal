@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".CaraPesan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                app:cardBackgroundColor="#87D5A7"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="352dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="0dp">
+
+                    <Button
+
+                        android:layout_width="352dp"
+                        android:layout_height="146dp"
+                        android:layout_gravity="center"
+                        android:background="#B595D4E8"
+                        android:drawableLeft="@drawable/icon_sepakbola"
+                        android:text="AYO FUTSAL" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="351dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        app:cardBackgroundColor="#000"
+                        app:cardCornerRadius="15dp">
+
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="576dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:gravity="center_horizontal"
+                    android:text="Cara Pemesanan"
+                    android:textAlignment="center"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="351dp"
+                    android:layout_height="52dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:text="Lorem" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,2 @@
+rootProject.name='aplikasi_sewa_tempat_futsal'
+include ':app'
